@@ -1,0 +1,38 @@
+# Credenciais e configurações locais
+service-account*.json
+credentials*.json
+client_secret*.json
+token*.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dados coletados e exportações
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-*
+*.sqlite3-*
+*.db-*
+*.csv
+*.log
+
+# Ambiente Python e caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Editor e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
